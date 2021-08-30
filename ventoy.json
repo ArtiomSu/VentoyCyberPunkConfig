@@ -1,0 +1,62 @@
+{
+    "control": [
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
+    ],
+	"theme": {
+		"file": "/ventoy/theme/CyberRe/theme.txt",
+		"gfxmode": "1920x1080",
+		"ventoy_left": "200%",
+		"ventoy_top": "200%",
+        "ventoy_color": "#000000",
+		"fonts": [
+			"/ventoy/theme/CyberRe/dejavu_14.pf2",
+			"/ventoy/theme/CyberRe/droidlogo_bold_17.pf2",
+			"/ventoy/theme/CyberRe/droidlogo_bold_20.pf2",
+			"/ventoy/theme/CyberRe/droidlogo_bold_26.pf2",
+			"/ventoy/theme/CyberRe/droidlogo_regular_12.pf2",
+			"/ventoy/theme/CyberRe/droidlogo_regular_17.pf2"
+		]
+	},
+	"menu_class": [
+        {
+            "parent": "/ISO/Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "parent": "/ISO/Kali_Linux",
+            "class": "kali"
+        },
+        {
+            "parent": "/ISO/Arch",
+            "class": "arch"
+        },
+        {
+            "parent": "/ISO/Windows_10",
+            "class": "windows10"
+        },
+        {
+            "parent": "/ISO/Windows_11",
+            "class": "windows11"
+        },
+        {
+            "parent": "/ISO/MemTest",
+            "class": "memtest"
+        },
+        {
+            "parent": "/ISO/HDAT",
+            "class": "hdat"
+        },
+        {
+            "parent": "/ISO/Gparted",
+            "class": "gparted"
+        },
+        {
+            "parent": "/ISO/ShredOs",
+            "class": "shredos"
+        },
+        {
+            "parent": "/ISO/Tails",
+            "class": "tails"
+        }           
+    ]
+}
